@@ -4,6 +4,8 @@ Oracle provides an open, modern, easy and intelligent platform and infrastructur
 
 This workshop will take you through combining Micronaut and Oracle Cloud with Autonomous Database to build an efficient and lean Microservice application.
 
+The workshop content can be accessed [here](https://graemerocher.github.io/micronaut-developerlive-workshop/workshop/index.html).
+
 ## Get an Oracle Cloud Trial Account for Free!
 
 If you don't have an Oracle Cloud account then you can quickly and easily sign up for a free trial account that provides:
