@@ -84,7 +84,7 @@ If you ran into trouble building or deploying the Microservice applications pres
     export DATASOURCES_DEFAULT_PASSWORD=[Your atp_schema_password]
    
     # checkout micronaut source code
-    git clone -b lab6 https://github.com/graemerocher/micronaut-developerlive-workshop.git
+    git clone -b lab6 https://github.com/graemerocher/micronaut-hol-example.git
    
     # run micronaut app
     cd micronaut-developerlive-workshop
