@@ -87,7 +87,7 @@ If you ran into trouble building or deploying the Microservice applications pres
     git clone -b lab6 https://github.com/graemerocher/micronaut-developerlive-workshop.git
    
     # run micronaut app
-    cd micronaut-hol-example
+    cd micronaut-developerlive-workshop
     ./gradlew run -t
     </copy>
 
