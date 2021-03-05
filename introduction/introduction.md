@@ -20,22 +20,22 @@ and Oracle Cloud to connected to an Oracle Database.
 
 - Lab 1: Generate SSH Keys
 - Lab 2: Provision OCI Resources (OCI VM, VCN and Autonomous Database)
-- Lab 3: Get setup to develop a Micronaut application locally
-- Lab 4: Build an app with Micronaut and Micronaut Data
-- Lab 5: Building a Native Image with GraalVM
-- Lab 6: Deploy your app on an Oracle Cloud VM
-- Lab 7: Terminate and Destroy OCI Resources
+- Lab 3: Setup your environment
+- Lab 4: Create and new Micronaut Application
+- Lab 5: Build an app with Micronaut and Micronaut Data
+- Lab 6: Building a Native Image with GraalVM
+- Lab 7: Deploy your app on an Oracle Cloud VM
+- Lab 8: Terminate and Destroy OCI Resources
 
 ### Prerequisites
 - An Oracle Cloud account, Free Trial, LiveLabs or a Paid account
 - Understanding of the Java programming language
-- [Micronaut](https://micronaut.io/download.html)
-- [GraalVM 20.2 for JDK 11](https://www.graalvm.org/docs/getting-started-with-graalvm/) 
+- [Micronaut 2.4](https://micronaut.io/download.html) 
+- [GraalVM 21.0.0 for JDK 11](https://www.graalvm.org/docs/getting-started-with-graalvm/) 
 - An IDE such as [VS Code](https://code.visualstudio.com/) or [IntelliJ](https://www.jetbrains.com/idea/download/#section=mac)
 
 ## More Information
 - [Micronaut](https://micronaut.io/)
-- [Helidon](https://helidon.io/)
 
 ## Acknowledgements
 - **Owners** - Graeme Rocher, Architect, Oracle Labs - Databases and Optimization

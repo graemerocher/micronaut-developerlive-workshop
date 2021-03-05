@@ -6,13 +6,13 @@ In this lab you will build a Micronaut application locally that connects to Orac
 If at any point you run into trouble completing the steps, the full source code for the application can be cloned from Github using the following command to checkout the code:
 
     <copy>
-    git clone -b lab5 https://github.com/graemerocher/micronaut-hol-example.git
+    git clone -b lab5 https://github.com/graemerocher/micronaut-developerlive-workshop.git
     </copy>
 
 If you were unable to setup the Autonomous Database and necessary cloud resources you can also checkout a version of the code that uses an in-memory database:
 
     <copy>
-    git clone -b lab5-h2 https://github.com/graemerocher/micronaut-hol-example.git
+    git clone -b lab5-h2 https://github.com/graemerocher/micronaut-developerlive-workshop.git
     </copy>
 
 
@@ -464,23 +464,51 @@ To execute your tests make sure you have set the `TNS_ADMIN` environment variabl
 <copy>
 export TNS_ADMIN=[Your absolute path to wallet]
 export DATASOURCES_DEFAULT_PASSWORD=[Your atp_schema_password]
+</copy>
+```
+
+Then if you are using Gradle use the `test` task to execute your tests:
+
+```bash
+<copy>
 ./gradlew test
+</copy>
+```
+
+Alternatively if you chose Maven use the `test` goal:
+
+```bash
+<copy>
+./mvnw test
 </copy>
 ```
 
 ## **STEP 6**: Run the Micronaut application locally
 
-To run the application locally and test against the Autonomous Database that was setup in the previous labs. Make sure you have set the `TNS_ADMIN` environment variable to the location of you Wallet directory and set `DATASOURCES_DEFAULT_PASSWORD` to the output value `atp_schema_password` produced by the Terraform script in the previous lab and then execute `./gradlew run -t`:
+To run the application locally and test against the Autonomous Database that was setup in the previous labs. Make sure you have set the `TNS_ADMIN` environment variable to the location of you Wallet directory and set `DATASOURCES_DEFAULT_PASSWORD` to the output value `atp_schema_password` produced by the Terraform script in the previous lab:
 
 ```bash
 <copy>
 export TNS_ADMIN=[Your absolute path to wallet]
 export DATASOURCES_DEFAULT_PASSWORD=[Your atp_schema_password]
-./gradlew run -t
 </copy>
  ```
 
-Note that the `-t` argument is optional and activates continuous build such that if you make changes to your application it will be automatically restarted.
+Then if you are using Gradle using the `run` task to start the application:
+
+```bash
+<copy>
+./gradlew run
+</copy>
+ ```
+
+Alternatively if you are using Maven use the `mn:run` goal:
+
+```bash
+<copy>
+./mvnw mn:run
+</copy>
+ ```
 
 You can now access [http://localhost:8080/pets](http://localhost:8080/pets) for the `/pet` endpoint and [http://localhost:8080/owners](http://localhost:8080/owners) for the `/owners` endpoint. For example:
 
