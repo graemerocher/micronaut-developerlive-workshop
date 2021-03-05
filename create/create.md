@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab you are going to get create a Micronaut application locally and configure the application to communicate with an Autonomous Database instance.
+In this lab you are going to get create a Micronaut application locally and configure the application to communicate with an Oracle Autonomous Database instance.
 
 If at any point you run into trouble completing the steps, the full source code for the application can be cloned from Github using the following command to checkout the code:
 
