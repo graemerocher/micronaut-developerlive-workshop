@@ -9,7 +9,7 @@
         {
             "title": "Introduction",
             "description": "Introduction to building Micronaut applications with Autonomous database.",
-            "filename": "../../introduction/introduction.md"
+            "filename": "../introduction/introduction.md"
         },
         {
             "title": "Lab 1: Generate SSH Keys",
@@ -19,31 +19,31 @@
         {
             "title": "Lab 2: Provision the OCI Resources",
             "description": "Provision the OCI resources",
-            "filename": "../../provision/provision.md"
+            "filename": "../provision/provision.md"
         },
         {
             "title": "Lab 3: Setup Your Environment",
-            "filename": "../../setup/setup.md"
+            "filename": "../setup/setup.md"
         },
         {
             "title": "Lab 4: Create the Micronaut Application",
-            "filename": "../../create/create.md"
+            "filename": "../create/create.md"
         },
         {
             "title": "Lab 5: Build the Micronaut Application",
-            "filename": "../../micronaut/micronaut.md"
+            "filename": "../micronaut/micronaut.md"
         },
         {
             "title": "Lab 6: Build a GraalVM Native Image",
-            "filename": "../../graalvm/nativeimage.md"
+            "filename": "../graalvm/nativeimage.md"
         },
         {
             "title": "Lab 7: Deploy the Micronaut Application",
-            "filename": "../../deploy/deploy.md"
+            "filename": "../deploy/deploy.md"
         },
         {
             "title": "Lab 8: Terminate and Destroy the OCI Resources",
-            "filename": "../../destroy/destroy.md"
+            "filename": "../destroy/destroy.md"
         }
     ]
 }
