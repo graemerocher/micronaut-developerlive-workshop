@@ -7,13 +7,13 @@ In this lab you are going to get create a Micronaut application locally and conf
 If at any point you run into trouble completing the steps, the full source code for the application can be cloned from Github using the following command to checkout the code:
 
     <copy>
-    git clone -b lab4 https://github.com/graemerocher/micronaut-hol-example.git
+    git clone -b lab4 https://github.com/graemerocher/micronaut-developerlive-workshop.git
     </copy>
 
 If you were unable to setup the Autonomous Database and necessary cloud resources you can also checkout a version of the code that uses an in-memory database:
 
     <copy>
-    git clone -b lab4-h2 https://github.com/graemerocher/micronaut-hol-example.git
+    git clone -b lab4-h2 https://github.com/graemerocher/micronaut-developerlive-workshop.git
     </copy>
 
 
