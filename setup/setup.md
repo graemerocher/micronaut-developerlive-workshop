@@ -24,7 +24,7 @@ In this lab you will:
 
     ```
     <copy>
-    wget -O setup.sh https://objectstorage.us-phoenix-1.oraclecloud.com/n/toddrsharp/b/micronaut-lab-assets/o/setup.sh
+    wget -O setup.sh https://objectstorage.us-ashburn-1.oraclecloud.com/p/qf2omeWDSGOoNsUaGDF8TeJ9Ib_c8o1b-EWE5BQO6vc4-OAC4xMlvVn2EfPHSeBL/n/cloudnative-devrel/b/micronaut-hol/o/setup.sh
     chmod +x setup.sh
     ./setup.sh
     </copy>
