@@ -52,9 +52,7 @@ In this lab you will:
     ```
     # run on local machine to push to VM
     <copy>
-    ssh -i ~/.ssh/id_rsa opc@$[VM IP Address] sudo mkdir /app
-    ssh -i ~/.ssh/id_rsa opc@$[VM IP Address] sudo chown opc /app
-    scp -i ~/.ssh/id_rsa -r build/libs/example-atp-0.1-all.jar opc@[VM IP Address]:/app/application.jar
+    scp -i ~/.ssh/id_rsa build/libs/example-atp-0.1-all.jar opc@[VM IP Address]:/home/opc/application.jar
     </copy>
     ```
 
