@@ -33,7 +33,7 @@ In this lab you will:
 
 ![Setup Script](images/setup_input.png)
 
-The script will produce several snippets of output to be used to build, run and deploy.
+The script will produce several snippets of output to be used to build, run and deploy later in the lab.
 
 ## **STEP 2**: Download and Configure Wallet Locally
 
