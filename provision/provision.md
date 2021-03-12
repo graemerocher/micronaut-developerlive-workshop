@@ -57,19 +57,11 @@ In this lab you will:
 
 ##  **STEP 2**: Apply the Terraform Plan
 
-1. On the Stack Details page, click 'Terraform Actions' and select 'Plan'.
-
-   ![Terraform Plan](images/stack_plan.png)
-
-2. Review the plan output and ensure no failures occurred.
-
-   ![Review Terraform Plan Log](images/plan_log.png)
-
-3. On the Stack Details page, Click 'Terraform Actions' and select 'Apply'.
+1. On the Stack Details page, Click 'Terraform Actions' and select 'Apply'.
 
    ![Applying the Stack](images/stack_apply.png)
 
-4. Choose the plan you just created, then click 'Apply'.
+2. Choose the Automatically approve job plan resolution, then click 'Apply'.
 
    ![Applying the Stack](images/stack_apply_2.png)
 
