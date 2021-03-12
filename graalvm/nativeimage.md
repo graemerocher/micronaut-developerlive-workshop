@@ -63,24 +63,6 @@ Or if you are using Maven, add the following configuration under `<plugins>`:
     </plugin>
     </copy>
 
-Finally, if you chose to use JPA/Hibernate (Lab 11 instead of Lab 10) then you need to add the following definition `@TypeHint` to your `Application` class:
-
-    <copy>
-    import io.micronaut.core.annotation.TypeHint;
-
-    @TypeHint(Pet.PetHealth.class)
-    public class Application {
-
-        public static void main(String[] args) {
-            Micronaut.run(Application.class, args);
-        }
-    }
-    </copy>
-
-Whilst Micronaut doesn't use reflection itself (and Micronaut Data JDBC doesn't as well), third-party libraries like Hibernate that do may need reflection configuration. The `@TypeHint` annotation allows the inner `PetHealth` enum to be accessed reflectively by Hibernate.
-
-Any other classes that you need to add reflectively can be added to the `@TypeHint` annotation as required.
-
 ## Building a Native Image with Gradle
 
 If you are using Gradle and the GraalVM SDK with Native Image installed (Native Image is an optional component installable via `gu install native-image`), then building a native image is trivial.
