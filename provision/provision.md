@@ -19,7 +19,7 @@ In this lab you will:
 
 ## **STEP 1**: Create a new Stack
 
-1. Create Infrastructure by downloading the Terraform configuration: A [stack.zip](https://objectstorage.us-phoenix-1.oraclecloud.com/n/toddrsharp/b/micronaut-lab-assets/o/stack.zip) file.
+1. Create Infrastructure by downloading the Terraform configuration: A [stack.zip](https://objectstorage.us-ashburn-1.oraclecloud.com/p/Vk4scdlVl3XADcppSfidX9GUGlQEtAqfJyjCBCbNARXWZobt00Wwx7JoTxyRzKX6/n/cloudnative-devrel/b/micronaut-hol/o/stack.zip) file.
 
 2. In the Oracle Cloud Console go to the "Solutions and Platforms" -> "Resource Manager" -> "Stacks".
 
